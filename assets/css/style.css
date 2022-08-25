@@ -115,3 +115,11 @@ a {
     left: 300px;
     content: '';
 }
+
+.logo a {
+    color: white;
+    letter-spacing: 11px;
+    font-family: 'Righteous', cursive;
+    font-size: 35px;
+
+}
