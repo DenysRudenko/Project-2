@@ -20,7 +20,7 @@ a {
 }
 
 
-/* --- Background properties for animation */
+/* --- Background properties for animation: background, cube, keyframes */
 .background {
     background: linear-gradient(132deg, #66D7EB, #242f3f, #212335);
     background-size: 400% 400%;
@@ -105,4 +105,13 @@ a {
         transform: scale(20) rotate(960deg) translate(-50%, -50%);
         opacity: 0;
     }
+}
+
+/* Logotype for 'ask.Js */
+
+.logo {
+    position: absolute;
+    bottom: 200px;
+    left: 300px;
+    content: '';
 }
