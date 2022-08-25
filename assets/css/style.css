@@ -374,3 +374,14 @@ a {
     z-index: -1;
     animation: slideInLeft .5s ease forwards;
 }
+
+/* Keyframes for slideIn left - quiz-box */
+@keyframes slideInLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
