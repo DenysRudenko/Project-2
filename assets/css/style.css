@@ -280,3 +280,7 @@ a {
 .home-box p span {
     font-weight: 500px;
 }
+
+.home-box .btn {
+    margin-top: 20px;
+}
