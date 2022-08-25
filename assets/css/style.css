@@ -346,3 +346,7 @@ a {
     position: relative;
     overflow: hidden;
 }
+
+.quiz-box .option-container .option.already-answered {
+    pointer-events: none;
+}
