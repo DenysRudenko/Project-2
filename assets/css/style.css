@@ -18,3 +18,17 @@ body {
 a {
     text-decoration: none;
 }
+
+
+/* --- Background properties for animation */
+.background {
+    background: linear-gradient(132deg, #66D7EB, #242f3f, #212335);
+    background-size: 400% 400%;
+    animation: Gradient 15s ease infinite;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0px;
+}
