@@ -284,3 +284,15 @@ a {
 .home-box .btn {
     margin-top: 20px;
 }
+
+.btn {
+    padding: 15px 45px;
+    background-color: #671075;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+    display: inline-block;
+}
