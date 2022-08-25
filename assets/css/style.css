@@ -313,3 +313,12 @@ a {
     width: 100%;
     float: left;
 }
+
+.quiz-box .question-number {
+    font-size: 20px;
+    color: #3E619B;
+    font-weight: 600px;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 10px;
+    line-height: 25px;
+}
