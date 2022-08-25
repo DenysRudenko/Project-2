@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 body {
     margin: 0;
@@ -121,5 +122,14 @@ a {
     letter-spacing: 11px;
     font-family: 'Righteous', cursive;
     font-size: 35px;
+}
+
+.cube2 {
+    position: absolute;
+    left: 120px;
+    bottom: 0px;
+    width: 108px;
+    height: 108px;
+    border: solid 4px #D7D4E4;
 
 }
