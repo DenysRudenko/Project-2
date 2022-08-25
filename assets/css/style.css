@@ -249,3 +249,10 @@ a {
 .custom-box {
     z-index: 1;
 }
+
+.custom-box::before,
+.custom-box::after {
+    content: '';
+    clear: both;
+    display: table;
+}
