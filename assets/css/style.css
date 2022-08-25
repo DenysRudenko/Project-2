@@ -235,3 +235,12 @@ a {
         height: 0%;
     }
 }
+
+.custom-box {
+    max-width: 700px;
+    background-color: #E9E9EB;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+    z-index: 1;
+}
