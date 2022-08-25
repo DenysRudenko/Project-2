@@ -299,3 +299,8 @@ a {
 }
 
 /* Second page css properties: quiz-box */
+
+.quiz-box,
+.custom-box {
+    z-index: 1;
+}
