@@ -276,3 +276,7 @@ a {
     color: #000000;
     font-weight: 400px;
 }
+
+.home-box p span {
+    font-weight: 500px;
+}
