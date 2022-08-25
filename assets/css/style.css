@@ -322,3 +322,12 @@ a {
     padding-bottom: 10px;
     line-height: 25px;
 }
+
+.quiz-box .question-text {
+    font-size: 22px;
+    color: #000000;
+    line-height: 28px;
+    font-weight: 400;
+    padding: 20px 0;
+    margin: 0;
+}
