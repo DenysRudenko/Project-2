@@ -29,5 +29,4 @@ document.onreadystatechange = function () {
                 ".logo").style.visibility = "visible";
         }
     }, 2000);
-
 };
