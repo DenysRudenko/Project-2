@@ -11,7 +11,7 @@ window.addEventListener('mousemove', function (e) {
 // Loading animation for a loading qube.
 
 document.onreadystatechange = function () {
-    // 
+    // Set timeout function for a 2 sec.
     setTimeout(function () {
         if (document.readyState !== "complete") {
             document.querySelector(
