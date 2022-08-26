@@ -282,22 +282,19 @@ Also checked with a mobile phone Huawei p40 lite.
 
 See the pictures below:
 
-![html](./assets/images/dm/14.png)
-![html](./assets/images/dm/15.png)
-The HTML checker notified me an error in my index.html page at the start of the project, in short words i remember that for "section" i should use h1 - h6 headings, only "div" elements could be fine without headings. Also i had a problem in my contact-us.html with a form. I forgot to make "for" attribute in label for "subject" input. 
+![html](assets/images/html.png)
 
-[W3C CSS Validation](https://jigsaw.w3.org/css-validator/) was used to check for any error within my css file. I have no errors but I have warnings because of "-Webkit ''. Like it says in the documentary over [here](https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar)
+The HTML checker showed a perfect result.
 
-* ::-webkit-scrollbar is only available in Blink- and WebKit-based browsers (e.g., Chrome, Edge, Opera, Safari, all browsers on iOS, and others). A standardized method of styling scrollbars is available with "scrollbar-color" and "scrollbar-width".
+[W3C CSS Validation](https://jigsaw.w3.org/css-validator/) was used to check for any error within my css file. I have a couple of errors with setting a properties for margin in - 15px, and setting a font-weight with a property with px.I have a few warnings in css file though.
 
-which i have done all over the project with the hover effects for text, footer logos and scrollbar. I decided to keep it, but I understand this is the rule for future development. I noticed that issue at the end of the project work, so i keep that in mind.
 
 See the pictures below:
 
-![css](./assets/images/dm/16.png)
-![css](./assets/images/dm/17.png)
-![css](./assets/images/dm/18.png)
-![css](./assets/images/dm/19.png)
+![css](/assets/images/css.png)
+![css](/assets/images/css-warn.png)
+
+### 4.1.4 Js Hint validator
 
 ## 4.2 Tests
 
@@ -312,20 +309,14 @@ See the picture below:
  [Go to the top](#table-of-contents)
 
   ### Solved bugs
-- The main problem for me was making the website responsive. I took a big jump ahead for developing this website. So it took a lot of time actually.
-- I also discovered they use percentage for images, there is a better way to make it responsive. For the whole project I was making the property in pixels, and only at the end I changed to percentage. 
-- At the start of the project I deployed the slideshow in the "Feedback" section, but when I tried to make it responsive the whole slideshow broke down.
-The width was measured in pixels, using a math formula I was changing the size of the screen to make it responsive, but when I tried to change it to percentage the whole slideshow broke down.
-
+- I had a few problems with a path to images.
+- I had a bug with a setTiomeOut function in js file with a timer, the start animation didnt work properly. Fixed with playing with diferent timer options.
+ 
 See the gif bellow:
 
-![test](./assets/images/dm/22.gif)
+![test](/assets/images/bug.gif)
 
-I couldn't fix it, so I got rid of it. I'm sure, for the working slideshow I needed to add overflow: hidden
-
-- The other bugs I had were publishing Ukrainian language html files on github. There was a problem with a path. The solution for it was editing the path as "../../example/example.png" 
-
-- I'm sure there are a lot of other bugs in my css code that I couldn't see, because of my experience of web developing. I'm sure that the whole code of css could be written in a shorter version.
+I decided to make a fixed qube around Js, there is a lot a qubes already hanging around the page.
 
  <a name="git"></a>
 # 6. GitHub
@@ -333,41 +324,37 @@ I couldn't fix it, so I got rid of it. I'm sure, for the working slideshow I nee
 
 The web was deployed to GitHub pages:
 - Sharing of mine profile here - https://github.com/DenysRudenko
-- The live link can be found here - (https://denysrudenko.github.io/Project-1.-Tatto-studio./)
+- The live link can be found here - (https://github.com/DenysRudenko/Project-2)
 
   <a name="info"></a>
 # 7. Information
  [Go to the top](#table-of-contents)
 ### Code
-* The main image above the nav bar came from the Love Running project
-* The code for the menu button came from https://freefrontend.com/css-hamburger-menu-icons/ and was edited for my purposes.
-* The design idea for the main image and navigation bar was taken from https://dribbble.com/shots/11360956--84-2-Shots-for-Practice/attachments/2973440?mode=media
+* The documentation for animation at the start of the page readed from here https://stackabuse.com/loading-animation-in-vanilla-javascript/
+* The code for timeout function for animated qube from here https://coderwall.com/p/_ppzrw/be-careful-with-settimeout-in-loops
+* The design idea for logo i took from this page https://alvarotrigo.com/blog/css-text-animations/
 * The design idea for pages was taken from https://www.goodkindtattoo.com/
-* The icons in the footer and contact page came from [Font Awesome](https://fontawesome.com/)
-* For README.md file, reference of https://github.com/dhakal79/Portfolio-project-MS1/edit/master/README.md and from my teacher in Kyiv Politehnic Insitute https://github.com/GasperPaul/university-tools-installer 
-* Photos are made by Igor Nykytyn, talanted photographer https://instagram.com/igor_nik_photo?igshid=YmMyMTA2M2Y=
-* Help with a photo designs Anton Skokivsky https://instagram.com/a.skokivskyi?igshid=YmMyMTA2M2Y=
+* For README.md file, reference of https://github.com/DenysRudenko/Project-1 and https://github.com/josswe26/rpsls
 * A big thank you to mentor Marcel Mulders for tips and for supporting a project I made.
+* The quiz idea and some examples of code came from wathing that video https://www.youtube.com/watch?v=riDzcEQbX6k&ab_channel=WebDevSimplified
 
 
 <a name="#future"></a>
 # 8. Future
 [Go to the top](#table-of-contents)
 
-### Web Security
-* There is need to make some security analysis, in order to put in on the internet.
+### Questions
+* Increase amount of question with examples of code.
 
-### Loading
-* The problem with a big picture weight could be fixed by loading animation at the start with a help of JavaScript.
+### Timer
+* Develop a timer for every question.
 
-### Chat
-* The great idea is to add a live chat menu box.
+### Achievements
+* Develop achievements for asnwering correct.
 
-### Animations
-* There could be nice animations with photos.
+### Clues
+* Develop a clues with a link with documentation.
 
-### Parcing
-* Should be created a file with information about parcing for other developers.
+### Profile
+* Develop the personal profile page with a percentage of succes.
 
-### Font style
-* There could be more improvements with a font and also added font for Ukrainian language.
