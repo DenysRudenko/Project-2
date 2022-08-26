@@ -102,3 +102,51 @@ function setAvailableQuestions() {
         availableQuestions.push(quiz[i]);
     }
 }
+
+/**
+ * set question number and question and options
+ */
+function getNewQuestion() {
+    // set question number
+    questionNumber.innerHTML = "Question " + (questionCounter + 1) + " of " + quiz.length;
+
+    // set question text
+    // get random question
+    const questionIndex = availableQuestions[Math.floor(Math.random() * availableQuestions.length)];
+    currentQuestion = questionIndex;
+    questionText.innerHTML = currentQuestion.q;
+    //  get the position of questionIndex from the avaliableQuestion array
+    const index1 = availableQuestions.indexOf(questionIndex);
+    // remove the question index from the avaliable Array, so that the question does not repeat
+    availableQuestions.splice(index1, 1);
+
+    // set options
+    // get the lenght of options
+
+    const optionLen = currentQuestion.options.length;
+    // push options into avaliableOptions Array
+    for (let i = 0; i < optionLen; i++) {
+        avaliableOptions.push(i);
+    }
+
+    optionContainer.innerHTML = '';
+    let animationDeley = 0.2;
+    // create options in Html
+    for (let i = 0; i < optionLen; i++) {
+        // random option
+        const optionIndex = avaliableOptions[Math.floor(Math.random() * avaliableOptions.length)];
+        // get the position of optionInDex from avaliableOptions
+        const index2 = avaliableOptions.indexOf(optionIndex);
+        // remove the optionIndex from the avaliableOptions, so that the option does not repeat
+        avaliableOptions.splice(index2, 1);
+        const option = document.createElement('div');
+        option.innerHTML = currentQuestion.options[optionIndex];
+        option.id = optionIndex;
+        option.style.animationDelay = animationDeley + 's';
+        animationDeley = animationDeley + 0.2;
+        option.className = "option";
+        optionContainer.appendChild(option);
+        option.setAttribute("onclick", "getResult(this)");
+    }
+    questionCounter++;
+}
