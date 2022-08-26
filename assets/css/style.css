@@ -496,20 +496,20 @@ a {
 
 @media(max-width: 767px) {
     .result-box .btn {
-        margin-bottom: 15px;
+        margin-bottom: -15px;
     }
 
     body {
-        padding: 15px;
+        padding: -15px;
     }
 }
 
 @media(max-width: 500px) {
     .result-box .btn {
-        margin-bottom: 15px;
+        margin-bottom: -15px;
     }
 
     body {
-        padding: 15px;
+        padding: -15px;
     }
 }
