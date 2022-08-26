@@ -191,3 +191,15 @@ function unclickbleOptions() {
         optionContainer.children[i].classList.add('already-answered');
     }
 }
+
+/**
+ * Answers indicator
+ */
+function answerIndicator() {
+    answerIndicatorContainer.innerHTML = '';
+    const totalQuestions = quiz.length;
+    for (let i = 0; i < totalQuestions; i++) {
+        const indicator = document.createElement('div');
+        answerIndicatorContainer.appendChild(indicator);
+    }
+}
