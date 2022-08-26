@@ -181,3 +181,13 @@ function getResult(element) {
     attempt++;
     unclickbleOptions();
 }
+
+/**
+ *  make all the options unclikable once the user select a option
+ */
+function unclickbleOptions() {
+    const optionLen = optionContainer.children.length;
+    for (let i = 0; i < optionLen; i++) {
+        optionContainer.children[i].classList.add('already-answered');
+    }
+}
