@@ -292,4 +292,4 @@ function startQuiz() {
 
 window.onload = function () {
     homeBox.querySelector(".total-questions").innerHTML = quiz.length;
-}
+};
