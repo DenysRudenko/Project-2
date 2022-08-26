@@ -513,3 +513,10 @@ a {
         padding: -15px;
     }
 }
+
+@media(max-width: 478px) {
+    .logo {
+        top: 760px;
+        left: 30px;
+    }
+}
