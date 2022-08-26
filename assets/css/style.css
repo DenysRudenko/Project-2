@@ -397,3 +397,47 @@ a {
     z-index: -1;
     animation: slideInLeft .5s ease forwards;
 }
+
+.quiz-box .option-container .option.wrong {
+    color: #ffffff;
+}
+
+.quiz-box .option-container .option.correct {
+    color: #ffffff;
+}
+
+.quiz-box .btn {
+    margin: 15px 0;
+}
+
+.quiz-box .answers-indicator {
+    border-top: 1px solid #cccccc;
+}
+
+.quiz-box .answers-indicator div {
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    background-color: #cccccc;
+    border-radius: 50%;
+    margin-right: 3px;
+    margin-top: 10px;
+}
+
+.quiz-box .answers-indicator div.correct {
+    background-color: green;
+    background-image: url(/img/correct.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.quiz-box .answers-indicator div.wrong {
+    background-color: red;
+    background-image: url(/img/wrong.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Third page css properties */
