@@ -259,3 +259,33 @@ function tryAgainQuiz() {
     resetQuiz();
     startQuiz();
 }
+
+function goToHome() {
+    // hide result-box
+    resultBox.classList.add('hide');
+
+    // show home box
+    homeBox.classList.remove('hide');
+    resetQuiz();
+}
+
+/**
+ * Starting point.
+ */
+function startQuiz() {
+
+    // hide home-box
+    homeBox.classList.add('hide');
+
+    // show home-box
+    quizBox.classList.remove('hide');
+
+    // first set all questions in avaliableQuestions array
+    setAvailableQuestions();
+
+    // second call getNewQuestions()
+    getNewQuestion();
+
+    // to create indicator of answers
+    answerIndicator();
+};
