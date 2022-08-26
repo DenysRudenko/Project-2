@@ -519,4 +519,8 @@ a {
         top: 760px;
         left: 30px;
     }
+
+    .btn {
+        margin-top: 20px;
+    }
 }
