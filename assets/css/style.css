@@ -129,7 +129,7 @@ a {
 .cube2 {
     position: absolute;
     left: 120px;
-    bottom: 0px;
+    top: -40px;
     width: 108px;
     height: 108px;
     border: solid 4px #D7D4E4;
