@@ -444,6 +444,24 @@ a {
 
 /* Third page css properties */
 
+
+.result-box {
+    text-align: center;
+    animation: fadeInRight 1s ease;
+}
+
+@keyframes fadeInRight {
+    0% {
+        transform: translateX(40px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
 .result-box.hide {
     display: none;
 }
