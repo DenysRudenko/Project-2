@@ -91,3 +91,14 @@ let availableQuestions = [];
 let avaliableOptions = [];
 let correctAnswers = 0;
 let attempt = 0;
+
+
+/**
+ * Push the questions into avaliableQuestions Array
+ */
+function setAvailableQuestions() {
+    const totalQuestions = quiz.length;
+    for (let i = 0; i < totalQuestions; i++) {
+        availableQuestions.push(quiz[i]);
+    }
+}
