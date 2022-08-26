@@ -288,4 +288,4 @@ function startQuiz() {
 
     // to create indicator of answers
     answerIndicator();
-};
+}
