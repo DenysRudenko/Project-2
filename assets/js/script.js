@@ -203,3 +203,29 @@ function answerIndicator() {
         answerIndicatorContainer.appendChild(indicator);
     }
 }
+
+
+/**
+ * 
+ * Updated asnwers indicator
+ */
+function updateAnswerIndicator(markType) {
+    answerIndicatorContainer.children[questionCounter - 1].classList.add(markType);
+}
+
+function next() {
+    if (questionCounter === quiz.length) {
+        quizOver();
+    } else {
+        getNewQuestion();
+    }
+}
+
+function quizOver() {
+    // hide quizBox
+    quizBox.classList.add('hide');
+
+    // show result box
+    resultBox.classList.remove('hide');
+    quizResult();
+}
