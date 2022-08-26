@@ -112,9 +112,9 @@ a {
 /* Logotype for 'ask.Js */
 
 .logo {
-    position: absolute;
-    bottom: 200px;
-    left: 300px;
+    position: relative;
+    top: 750px;
+    left: 200px;
     content: '';
 }
 
@@ -123,6 +123,7 @@ a {
     letter-spacing: 11px;
     font-family: 'Righteous', cursive;
     font-size: 35px;
+    position: absolute;
 }
 
 .cube2 {
