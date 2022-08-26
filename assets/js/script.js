@@ -213,6 +213,7 @@ function updateAnswerIndicator(markType) {
     answerIndicatorContainer.children[questionCounter - 1].classList.add(markType);
 }
 
+
 function next() {
     if (questionCounter === quiz.length) {
         quizOver();
@@ -228,4 +229,33 @@ function quizOver() {
     // show result box
     resultBox.classList.remove('hide');
     quizResult();
+}
+
+/**
+ * Getting the quiz result
+ */
+function quizResult() {
+    resultBox.querySelector('.total-questions').innerHTML = quiz.length;
+    resultBox.querySelector('.total-attempt').innerHTML = attempt;
+    resultBox.querySelector('.total-correct').innerHTML = correctAnswers;
+    resultBox.querySelector('.total-wrong').innerHTML = attempt - correctAnswers;
+    const percentage = (correctAnswers / quiz.length) * 100;
+    resultBox.querySelector('.percentage').innerHTML = percentage.toFixed(2) + '%';
+    resultBox.querySelector('.total-score').innerHTML = correctAnswers + ' / ' + quiz.length;
+}
+
+function resetQuiz() {
+    questionCounter = 0;
+    correctAnswers = 0;
+    attempt = 0;
+}
+
+function tryAgainQuiz() {
+    // hide the result box
+    resultBox.classList.add("hide");
+
+    // show the quiz box
+    quizBox.classList.remove("hide");
+    resetQuiz();
+    startQuiz();
 }
