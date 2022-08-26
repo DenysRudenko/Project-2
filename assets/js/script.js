@@ -1,3 +1,47 @@
+// Arrays of the questions
+
+const quiz = [{
+        q: 'Which variable name in JS is the most correct ?',
+        options: ['let Usersnames', 'let user-data', 'let personalData', 'let some_things'],
+        answer: 2
+    },
+    {
+        q: 'What is the result of the "typeof(NaN)" operation ?',
+        options: ['NaN', '"string"', '"number"', '"object"'],
+        answer: 2
+    },
+    {
+        q: 'What is the result of the "typeof(+ "4")" operation ?',
+        options: ['"number"', '"string"', 'Error', 'NaN'],
+        answer: 0
+    },
+    {
+        q: 'What can be inside an array as its elements ?',
+        options: ['Only any primitive data types and objects', 'Objects and other arrays', 'Any entities and data types', 'Objects, arrays, numbers, strings and functions'],
+        answer: 2
+    },
+    {
+        q: 'How many arguments a function can have ?',
+        options: ['As much as necessary', 'No more than 10', '256', 'Depends on the method of declaring the function: from 1 to 256'],
+        answer: 0
+    },
+    {
+        q: 'Why you need a version control system ?',
+        options: ['To save project checkpoints', 'To organize teamwork on a project', 'To save a backup', 'All answers is correct'],
+        answer: 3
+    },
+    {
+        q: 'JavaScript - is...',
+        options: ['Prototypically oriented programming language', 'Functional programming language', 'Procedural programming language', 'Logical programming language'],
+        answer: 0
+    },
+    {
+        q: '"switch" construction allows...',
+        options: ['Use cycles more rationally', 'Create functions only on demand', 'Put a lot of checks and conditions in place', 'It is convenient to check numbers for more\less'],
+        answer: 2
+    },
+];
+
 // Parallax for logo "ask.Js"
 
 let bg = document.querySelector('.parallax');
