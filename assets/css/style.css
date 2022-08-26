@@ -299,6 +299,7 @@ a {
     display: inline-block;
 }
 
+
 /* Second page css properties: quiz-box */
 
 .quiz-box,
@@ -441,6 +442,22 @@ a {
     background-position: center;
 }
 
+.quiz-box {
+    animation: fadeInRight 1s ease;
+}
+
+@keyframes fadeInRight {
+    0% {
+        transform: translateX(40px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
 /* Third page css properties */
 
 
@@ -494,14 +511,6 @@ a {
 /* Media */
 
 @media(max-width: 767px) {
-    .result-box .btn {
-        margin-bottom: -15px;
-    }
-
-    body {
-        padding: -15px;
-    }
-
     .custom-box {
         margin-right: 10px;
         margin-left: 10px;
