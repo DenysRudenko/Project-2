@@ -441,3 +441,29 @@ a {
 }
 
 /* Third page css properties */
+
+.result-box.hide {
+    display: none;
+}
+
+.result-box h1 {
+    font-size: 36px;
+    line-height: 42px;
+    color: #3E619B;
+}
+
+.result-box table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 0;
+}
+
+.result-box td {
+    border: 1px solid #cccccc;
+    padding: 8px 15px;
+    font-weight: 500px;
+    color: #000000;
+    width: 50%;
+    text-align: left;
+    font-size: 18px;
+}
