@@ -1,6 +1,6 @@
 # Welcome to ask.Js
 
-This website is designed for [ask.Js](https://github.com/DenysRudenko/Project-2/).
+This website is designed for [ask.Js](https://denysrudenko.github.io/Project-2/).
 
 ## Introduction
 **ask.Js** is platform to train and gain knowledge in JavaScript.
@@ -44,23 +44,27 @@ This website is designed for [ask.Js](https://github.com/DenysRudenko/Project-2/
 ## 1.1 User experience 
    [Go to the top](#table-of-contents)
 
-In the modern world there is a lot of educational books and resources for a knowledge. This website can help with learning the JavaScript. There is 3 pages on the website which include 'Instruction','Questions','Result'. The user have ability to start all over again by pressing the buttons.
+In the modern world there are a lot of educational books and resources for knowledge. This website can help with learning JavaScript. There are 3 pages on the website which include 'Instruction','Questions','Result'. The user has the ability to start all over again by pressing the buttons.
 
 
 <a name="user-goals"></a>
 ## 1.2 User Goals
   [Go to the top](#table-of-contents)
 
-My main goal during the project was creation of the basic questions about JavaScript. There is lot of more questions will be added in the future.
+My main goal during the project was creation of the basic questions about JavaScript. There are a lot more questions that will be added in the future.
+
 
 <a name="user-expectations"></a>
 ## 1.3 User Expectations
    [Go to the top](#table-of-contents)
 
-The website contains information about functions,switch construction,arrays,variables. Why we neeed version control system GIT?
-* all pages are easily accessible 
-* the interface is easily navigated 
+The choice of the color scheme for the website I took from 'Instagram' posts.
+ 
+The website contains information about functions,switch construction,arrays,variables. Why do we need the version control system GIT?
+* all pages are easily accessible
+* the interface is easily navigated
 * responsive design for all screen/device sizes
+
 
 <a name="color-scheme"></a>
 ## 1.4 Color Scheme
@@ -69,13 +73,13 @@ The website contains information about functions,switch construction,arrays,vari
 ![color pallete](assets/images/color.png)
 
 
-The choice of the color scheme for the website i took from 'Instagram' posts.
+The choice of the color scheme for the website I took from 'Instagram' posts.
 
 <a name="animation"></a>
 ## 1.5 Animation
   [Go to the top](#table-of-contents)
 
-I decided to create nicely animation on the background, so the user dont feel so bored while answering the questions. I looked up for animation in google and found a list of them [here](https://alvarotrigo.com/blog/animated-backgrounds-css/).
+I decided to create a nice animation in the background, so the user doesn't feel so bored while answering the questions. I looked up for animation in google and found a list of them [here](https://alvarotrigo.com/blog/animated-backgrounds-css/).
 
 What did i do?
 * Created a background animation(Thank`s google for good examples)
@@ -164,7 +168,7 @@ What did i do?
 #### 1st page:
 * Instructions
 
-The first page is explanation how to play the quiz.
+The first page explains how to play the quiz.
 
 #### 2nd page:
 * Questions
@@ -176,7 +180,7 @@ The second page is presented with a question and 4 answers to choose and a butto
 #### 3rd page:
 * Result page
 
-The final page is with a results of your game and with two button to start over the game.
+The final page is with the results of your game and with two buttons to start over the game.
 
 #### Language:
 Website contain 1 language
@@ -186,14 +190,15 @@ Website contain 1 language
 ask.Js is placed on the bottom left corner and has an animation.
 
 #### Background color:
-Background is animated with a different colors and qubes animation.
+Background is animated with different colors and qubes animation.
+
 
 ### The quiz box:
-- The quiz box have an animation with the answers and the box is moving from the right side for a moment.
+- The quiz box has an animation with the answers and the box is moving from the right side for a moment.
 
 
 ### Result box:
-- Result box have an animation with the box that moving from the right side for a moment.
+- Result box has an animation with the box moving from the right side for a moment.
 
 ### Logo
 - ask.Js logo is animated and moving while you move your mouse.
