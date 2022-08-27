@@ -282,35 +282,37 @@ I decided to make a fixed qube around Js, there is a lot a qubes already hanging
 
 ### Manual Testing
 
-    - General
+- General
 
-    Feature | Outcome | Pass/Fail
-    --- | --- | ---
-    Animation at the start | Animation qube is working as expected. | Pass
-    Background animation | Background animation with qubes are working as expected | Pass
-    Animation with answers | Animation is working as expected. | Pass
-    Animation boxes | Animation quiz and result boxes are working as expected. | Pass
-    Animation logo | Animation logotype is working as expected. | Pass
+| Feature                | Outcome                                                 | Pass/Fail|
+|:----------------------:|:-------------------------------------------------------:| ---      |
+| Animation at the start | Animation qube is working as expected.                  | Pass     |
+| Background animation   | Background animation with qubes are working as expected | Pass     |
+| Animation with answers | Animation is working as expected.                       | Pass     |
+| Animation boxes        | Animation quiz and result boxes are working as expected.| Pass     |
+| Animation logo         | Animation logotype is working as expected.              | Pass     |
 
-    - Home Section
-    
-    Feature | Outcome | Pass/Fail
-    --- | --- | ---
-    Start Quiz Button | Links to game section, work as expected. | Pass
-    Next Button | Links to the next question, work as expected. | Pass
-    Try Again Button | Links to the start of the quiz | Pass
-    Go to Home | Links to the start of instructions | Pass
-    
-    - Result Form Popup
-    
-    Feature | Outcome | Pass/Fail
-    --- | --- | ---
-    Total Questions | Count all questions. |  Pass
-    Attempt | Count user attempts to asnwer the question. |  Pass
-    Correct | Count user correct answers. | Pass
-    Wrong | Count user wrong answers. | Pass
-    Percentage | Count user percentage statistic | Pass
-    Your total score | Counts user total score | Pass
+   
+- Button Section
+
+Feature | Outcome | Pass/Fail
+--- | --- | ---
+Start Quiz Button| Links to game section, work as expected. | Pass
+Next Button | Links to the next question, work as expected. | Pass
+Try Again Button | Links to the start of the quiz  | Pass
+Go to Home  | No appearance, responsiveness nor functionality issues. | Pass
+
+- Result Section
+
+Feature | Outcome | Pass/Fail
+--- | --- | ---
+Total Questions| Links to game section, work as expected. | Pass
+Attempt | Links to the next question, work as expected. | Pass
+Correct | Links to the start of the quiz  | Pass
+Wrong | Count user wrong answers. | Pass
+Percentage | Count user percentage statistic | Pass
+Your total score | Counts user total score | Pass
+
 
 [Go to the top](#table-of-contents)
 
