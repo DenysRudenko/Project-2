@@ -159,83 +159,45 @@ What did i do?
   <a name="features"></a>
 # 2. Features
   [Go to the top](#table-of-contents)
- ### All 4 pages:
+ ### All 3 pages:
 
-#### Header contains:
-* Logo
-* Social links
-* Menu button
+#### 1st page:
+* Instructions
 
-#### Social links:  
-Social media links (for Facebook, Instagram and WhatsUp) are placed at the top and the bottom of each page in the header and footer. All the links open in a new tab. In mobile version the top social links are disabled by using:
-* display: none;
+The first page is explanation how to play the quiz.
 
-I decided to place them there, because I was trying to make a similar design as [here](https://dribbble.com/shots/11360956--84-2-Shots-for-Practice/attachments/2973440?mode=media).
+#### 2nd page:
+* Questions
 
-Back to home link provided at each page at the top left corner. This allows the user to access the home page in one click.
+The second page is presented with a question and 4 answers to choose and a button to continue.
 
 
 
-#### Navigation bar: 
-Placed at the top right corner in the menu button. I read a lot of material to develop it, taken from one of the examples [here](https://freefrontend.com/css-hamburger-menu-icons/). The style of code was changed and edited for my purposes. There was a lot of work making that without JavaScript.
+#### 3rd page:
+* Result page
 
-#### Languages:
-Website contain 2 different languages:
+The final page is with a results of your game and with two button to start over the game.
+
+#### Language:
+Website contain 1 language
 * English
-* Ukrainian
-
-#### Drop down menu bar: 
-Slided from the left side and contains :
-* Home
-* Gallery
-* About us
-* Contact us
 
 #### Logo:
-Tattoo Studio is placed on the top left corner and has an active selector which changes the color.
+ask.Js is placed on the bottom left corner and has an animation.
 
 #### Background color:
-Background color of the header is transparent.
-### Home page:
-- Artist image is included right below the menu bar to highlight that this website provides a tattoo sketches. 
-- The page contains 3 blocks of information : "Tattoo Studio in Kyiv", "Garanties", "Feedback".
- Each block contains information about it and image/video provided.
-- An external link "SCHEDULE AN APPOINTMENT" provided, so interested users can apply for a tattoo session. The link has a hover effect.
+Background is animated with a different colors and qubes animation.
+
+### The quiz box:
+- The quiz box have an animation with the answers and the box is moving from the right side for a moment.
 
 
-### Gallery page:
-- Gallery image right below the menu bar.
-- Page contains one block with 8 photos of tattoos.
+### Result box:
+- Result box have an animation with the box that moving from the right side for a moment.
 
-### About us page:
-- Gallery image just below the menu bar.
-- Page contains two blocks of information.
-- 1st block of information is about the artist "Alexandr Simakov"
-- 2nd block of information is about "Instruments and materials"
+### Logo
+- ask.Js logo is animated and moving while you move your mouse.
 
-### Contact us page:
-- Page contains one block with 2 different sections.
-- 1st section is a form, where the user can add his information about them and apply for a session.
-- 2nd section is location information with map, address and contact details.
-- If user wants to send an email they can press a link with an email.Look at the photo bellow:
-
-![email](./assets/images/dm/10.png)
-![email](./assets/images/dm/12.png)
-
-* Unfortunately the map details I hide at mobile version due to lack of time to style and finish the project till 30th of June.
-
-- The form use the method="POST" action="https://formdump.codeinstitute.net/"
-
-![form](./assets/images/dm/11.png)
-
-I made a "WhatsUp" link at the top and at the bottom page to help users to contact the artist of the studio the fastest way. If a user clicks on that link, they immediately are redirect to "WhatsUp" chat.
-
-Look at the pictures below:
-
-![whatsapp](./assets/images/dm/20.png)
-
-"Open xdg-open" this means that google chrome asking you a permission
-to open an application on Ubuntu/Debian operating systems.
 <a name="technologies-used"></a>
 # 3. Technologies Used
   [Go to the top](#table-of-contents)
@@ -244,11 +206,11 @@ to open an application on Ubuntu/Debian operating systems.
 
 * [CSS3](https://en.wikipedia.org/wiki/CSS) (Cascading Style Sheets) was used to provide the style to the content written in a HTML.
 
+* [JavaSCript](https://en.wikipedia.org/wiki/JavaScript) JavaScript often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.
+
 * [Wireframe](https://wireframe.cc/) was used to create wireframes of the website.
 
 * [Google Fonts](https://fonts.google.com/) was used to import font-family 'Krona One' into style,css file and which was used throughout the pages of the website.
-
-* [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html) was used to resize some of the site images and style them.
 
 * [Font Awesome](https://fontawesome.com/) was used to import icons to the sites.
 
@@ -257,10 +219,6 @@ to open an application on Ubuntu/Debian operating systems.
 * [Github](https://github.com/) was used to create the repository and to store the project's code after pushed from Git.
 
 * [Visual Studio](https://code.visualstudio.com/) was used as code generator. I installed ssh for comfortable work.
-
-* Extensions for visual studio, see the photo below:
-
-![extensions](./assets/images/dm/13.png)
 
 
 # 4. Testing
@@ -291,19 +249,23 @@ The HTML checker showed a perfect result.
 
 See the pictures below:
 
-![css](/assets/images/css.png)
-![css](/assets/images/css-warn.png)
+![css](assets/images/css.png)
+![css](assets/images/css-warn.png)
 
 ### 4.1.4 Js Hint validator
 
-## 4.2 Tests
-
-My problem with the whole project was that all images were a big size. For that reason whole pages take a while to load. All depends on the user's internet speed. So the percentage of performance is highly variable.
-To solve that problem read the "Future".
+[Js Hint](https://jshint.com/) was used to check js file for any error.I had one problem that i forgot to write the semikolon.
 
 See the picture below:
 
-![test](./assets/images/dm/21.png)
+![css](assets/images/jshint.png)
+
+## 4.2 Tests
+
+Used Lighthouse in Chrome DevTools to confirm that the colors and fonts being used in throughout the website are easy to read and accessible.
+
+![test](assets/images/lightgouse-dekstop.png)
+![test](/assets/images/lighthouse-mob.png)
 
 # 5. Bugs
  [Go to the top](#table-of-contents)
@@ -317,6 +279,40 @@ See the gif bellow:
 ![test](/assets/images/bug.gif)
 
 I decided to make a fixed qube around Js, there is a lot a qubes already hanging around the page.
+
+### Manual Testing
+
+    - General
+
+    Feature | Outcome | Pass/Fail
+    --- | --- | ---
+    Animation at the start | Animation qube is working as expected. | Pass
+    Background animation | Background animation with qubes are working as expected | Pass
+    Animation with answers | Animation is working as expected. | Pass
+    Animation boxes | Animation quiz and result boxes are working as expected. | Pass
+    Animation logo | Animation logotype is working as expected. | Pass
+
+    - Home Section
+    
+    Feature | Outcome | Pass/Fail
+    --- | --- | ---
+    Start Quiz Button | Links to game section, work as expected. | Pass
+    Next Button | Links to the next question, work as expected. | Pass
+    Try Again Button | Links to the start of the quiz | Pass
+    Go to Home | Links to the start of instructions | Pass
+    
+    - Result Form Popup
+    
+    Feature | Outcome | Pass/Fail
+    --- | --- | ---
+    Total Questions | Count all questions. |  Pass
+    Attempt | Count user attempts to asnwer the question. |  Pass
+    Correct | Count user correct answers. | Pass
+    Wrong | Count user wrong answers. | Pass
+    Percentage | Count user percentage statistic | Pass
+    Your total score | Counts user total score | Pass
+
+[Go to the top](#table-of-contents)
 
  <a name="git"></a>
 # 6. GitHub
