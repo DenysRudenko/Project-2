@@ -244,7 +244,8 @@ See the pictures below:
 
 The HTML checker showed a perfect result.
 
-[W3C CSS Validation](https://jigsaw.w3.org/css-validator/) was used to check for any error within my css file. I have a couple of errors with setting a properties for margin in - 15px, and setting a font-weight with a property with px.I have a few warnings in css file though.
+[W3C CSS Validation](https://jigsaw.w3.org/css-validator/) was used to check for any error within my css file. I have a couple of errors with setting a property for margin in - 15px, and setting a font-weight with a property with px.I have a few warnings in the css file though.
+
 
 
 See the pictures below:
@@ -254,7 +255,7 @@ See the pictures below:
 
 ### 4.1.4 Js Hint validator
 
-[Js Hint](https://jshint.com/) was used to check js file for any error.I had one problem that i forgot to write the semikolon.
+[Js Hint](https://jshint.com/) was used to check the js file for any error.I had one problem that i forgot to write the semicolon.
 
 See the picture below:
 
@@ -272,7 +273,8 @@ Used Lighthouse in Chrome DevTools to confirm that the colors and fonts being us
 
   ### Solved bugs
 - I had a few problems with a path to images.
-- I had a bug with a setTiomeOut function in js file with a timer, the start animation didnt work properly. Fixed with playing with diferent timer options.
+- I had a bug with a setTiomeOut function in a js file with a timer, the start animation didn't work properly. Fixed with playing with different timer options.
+
  
 See the gif bellow:
 
@@ -334,7 +336,7 @@ The web was deployed to GitHub pages:
 * The design idea for pages was taken from https://www.goodkindtattoo.com/
 * For README.md file, reference of https://github.com/DenysRudenko/Project-1 and https://github.com/josswe26/rpsls
 * A big thank you to mentor Marcel Mulders for tips and for supporting a project I made.
-* The quiz idea and some examples of code came from wathing that video https://www.youtube.com/watch?v=riDzcEQbX6k&ab_channel=WebDevSimplified
+* The quiz idea and some examples of code came from watching that video https://www.youtube.com/watch?v=riDzcEQbX6k&ab_channel=WebDevSimplified
 
 
 <a name="#future"></a>
@@ -342,17 +344,17 @@ The web was deployed to GitHub pages:
 [Go to the top](#table-of-contents)
 
 ### Questions
-* Increase amount of question with examples of code.
+* Increase the amount of questions with examples of code.
 
 ### Timer
 * Develop a timer for every question.
 
 ### Achievements
-* Develop achievements for asnwering correct.
+* Develop achievements for answering correctly.
 
 ### Clues
-* Develop a clues with a link with documentation.
+* Develop clues with a link with documentation.
 
 ### Profile
-* Develop the personal profile page with a percentage of succes.
+* Develop the personal profile page with a percentage of success.
 
