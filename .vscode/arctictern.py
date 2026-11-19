@@ -31,9 +31,6 @@ MIGRATE_FILE_LIST = [{"filename": ".theia/settings.json",
                      {"filename": ".theia/heroku_config.sh",
                       "url": ".vscode/heroku_config.sh"
                       },
-                      {"filename": ".theia/uptime.sh",
-                      "url": ".vscode/uptime.sh"
-                      },
                      {"filename": ".theia/init_tasks.sh",
                       "url": ".vscode/init_tasks.sh"
                       }]
@@ -61,9 +58,6 @@ UPGRADE_FILE_LIST = [{"filename": ".vscode/client.cnf",
                       },
                      {"filename": ".vscode/init_tasks.sh",
                       "url": ".vscode/init_tasks.sh"
-                      },
-                     {"filename": ".vscode/uptime.sh",
-                      "url": ".vscode/uptime.sh"
                       },
                      {"filename": ".vscode/make_url.py",
                       "url": ".vscode/make_url.py"
